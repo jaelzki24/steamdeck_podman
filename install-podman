@@ -132,7 +132,7 @@ printf >&2 "\033[1;31m Fetching podman %s...\n\033[0m" "${PODMAN_VERSION}"
 # All credits to @mgoltzsche for the builds.
 # Download and unpack the tar in /tmp
 curl -L \
-	"https://github.com/mgoltzsche/podman-static/releases/download/v${PODMAN_VERSION}/podman-linux-amd64.tar.gz" \
+	"https://github.com/mgoltzsche/podman-static/releases/download/v4.6.1/podman-linux-amd64.tar.gz" \
 	-o /tmp/podman-linux-amd64.tar.gz
 printf >&2 "\033[1;31m Unpacking Podman...\n\033[0m"
 tar xf /tmp/podman-linux-amd64.tar.gz -C /tmp/
